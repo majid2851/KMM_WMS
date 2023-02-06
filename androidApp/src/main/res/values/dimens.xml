@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mobiSystemPadding">@dimen/_3sdp</dimen>
+    <dimen name="marginLoginTopTitle">@dimen/_25sdp</dimen>
+    <dimen name="mobilSystmeFontSize">10.sp</dimen>
+    <dimen name="loginFontSize">16.sp</dimen>
+    <dimen name="paddingAll">@dimen/_15sdp</dimen>
+</resources>
