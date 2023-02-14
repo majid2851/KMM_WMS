@@ -18,9 +18,11 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Black
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Gray_B0
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Green2
@@ -87,17 +89,18 @@ fun PhoneField()
 
         }
 
-        Spacer(modifier=Modifier.width(dimensionResource(id = R.dimen.paddingLayouts7)))
-
-
         Box(
-            modifier=Modifier.align(Alignment.CenterVertically))
+            modifier=Modifier.align(Alignment.CenterVertically)
+                .fillMaxHeight()
+        )
         {
             TextField(value = "",
                 onValueChange = {},modifier= Modifier
                     .fillMaxWidth()
-                    .fillMaxHeight(),
-                label = { Text(stringResource(R.string.phoneNumberHint))},
+                    .fillMaxHeight().align(Alignment.Center),
+                placeholder = { Text(
+                    text=stringResource(R.string.phoneNumberHint),
+                )},
 
                 colors = TextFieldDefaults.textFieldColors(
                     textColor = Gray_B0,
