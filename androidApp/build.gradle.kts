@@ -43,6 +43,8 @@ dependencies {
     implementation(project(":shared"))
 
     implementation(Accompanist.coil)
+    implementation(Accompanist.coilSvg)
+    implementation(Accompanist.coinJet)
 
     implementation(AndroidX.appCompat)
     implementation(AndroidX.fragmentKtx)
@@ -71,6 +73,7 @@ dependencies {
 
     implementation ("com.intuit.sdp:sdp-android:1.0.6")
     implementation ("com.intuit.ssp:ssp-android:1.0.6")
+//    implementation ("com.google.code.gson:gson:2.9.0")
 
     debugImplementation(SquareUp.leakCanary)
 }

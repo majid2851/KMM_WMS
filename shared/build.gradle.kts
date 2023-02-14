@@ -6,6 +6,7 @@ plugins {
     kotlin(KotlinPlugins.serialization) version Kotlin.version
     id(Plugins.androidLibrary)
     id(Plugins.sqlDelight)
+
 }
 
 version = "1.0"

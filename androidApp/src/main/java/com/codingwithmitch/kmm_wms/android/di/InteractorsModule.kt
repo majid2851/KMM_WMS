@@ -9,24 +9,25 @@ import dagger.hilt.components.SingletonComponent
 import io.ktor.client.*
 import javax.inject.Singleton
 import com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.KtorClientFactory
+import com.codingwithmitch.kmm_wms.kmm_learning_mitch.interactors.transfer_task.TransferTaskUsecase
+
 @Module
 @InstallIn(SingletonComponent::class)
 object InteractorsModule
 {
-    @Singleton
-    @Provides
-    fun provideHttpClient(): HttpClient
-    {
-        return KtorClientFactory().build()
-    }
 
     @Singleton
     @Provides
-    fun provideSearchRecipe(loginService: LoginService,): LoginUsecase
+    fun provideLoginUsecase(loginService: LoginService,): LoginUsecase
     {
         return LoginUsecase(loginService)
     }
-
+    @Singleton
+    @Provides
+    fun provideTransferTask(): TransferTaskUsecase
+    {
+        return TransferTaskUsecase()
+    }
 
 
 

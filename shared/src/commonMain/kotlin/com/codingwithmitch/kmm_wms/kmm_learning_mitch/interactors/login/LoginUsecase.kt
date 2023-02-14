@@ -1,7 +1,7 @@
 package com.codingwithmitch.kmm_wms.kmm_learning_mitch.interactors.login
 
 import com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.LoginService
-import com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.model.LoginModel
+import com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.model.login.get.LoginModel
 import com.codingwithmitch.kmm_wms.kmm_learning_mitch.domain.util.DataState
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

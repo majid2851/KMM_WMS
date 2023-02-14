@@ -16,9 +16,9 @@ import androidx.compose.ui.unit.sp
 import com.codingwithmitch.kmm_wms.android.R
 
 @Composable
-fun ButtonLogin()
+fun ButtonLogin(onLoginClick:()->Unit)
 {
-    Button(onClick = {  }, modifier = Modifier
+    Button(onClick = { onLoginClick() }, modifier = Modifier
         .background(
             color = colorResource(id = R.color.blue),
             shape =  RoundedCornerShape(46.dp)

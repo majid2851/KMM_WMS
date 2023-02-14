@@ -3,6 +3,7 @@ package com.codingwithmitch.food2forkcompose.presentation.theme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
@@ -11,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.*
 
 private val LightThemeColors = lightColors(
@@ -45,6 +47,7 @@ fun AppTheme(
             modifier = Modifier
                 .fillMaxSize()
                 .background(color = Grey1)
+                .padding(12.dp)
         ){
             content()
 

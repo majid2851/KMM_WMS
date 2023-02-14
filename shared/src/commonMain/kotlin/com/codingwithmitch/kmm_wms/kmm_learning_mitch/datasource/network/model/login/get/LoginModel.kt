@@ -1,4 +1,4 @@
-package com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.model
+package com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.model.login.get
 
 import kotlinx.serialization.SerialName
 

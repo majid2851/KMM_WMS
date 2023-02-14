@@ -17,9 +17,10 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.codingwithmitch.kmm_wms.android.R
+import com.codingwithmitch.kmm_wms.kmm_learning_mitch.presentation.login_page.LoginState
 
 @Composable
-fun TextFieldEdi(hint:String, type: KeyboardType)
+fun TextFieldEdi(value:String,hint: String, type: KeyboardType, state: LoginState, onEdiChange: (String)->Unit)
 {
     Surface(modifier = Modifier
         .padding(0.dp)
@@ -35,8 +36,8 @@ fun TextFieldEdi(hint:String, type: KeyboardType)
         ))
     {
 
-        TextField(value = "",
-            onValueChange = {},
+        OutlinedTextField(value = value,
+            onValueChange = {onEdiChange(it)},
             label = { Text(hint) },
             keyboardOptions = KeyboardOptions(
                 keyboardType = type,

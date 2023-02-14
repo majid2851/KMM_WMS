@@ -2,4 +2,16 @@
 <resources>
     <string name="MobilSystemDesc">Mobile Warehouse Management System</string>
     <string name="login">Login</string>
+    <string name="enterYour">enter your</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="m">M</string>
+    <string name="obile">obile</string>
+    <string name="n">N</string>
+    <string name="umber">umber</string>
+    <string name="description">We will provide you with 4 digit verification code</string>
+    <string name="sendCode">Send Code</string>
+    <string name="or">Or</string>
+    <string name="quickConnect">Use your regular regular accounts to quick connect</string>
+    <string name="countryCode">NL +31</string>
+    <string name="phoneNumberHint">Phone Number</string>
 </resources>

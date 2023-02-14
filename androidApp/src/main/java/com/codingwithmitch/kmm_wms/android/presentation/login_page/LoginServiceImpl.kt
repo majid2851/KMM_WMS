@@ -1,10 +1,11 @@
 package com.codingwithmitch.kmm_wms.android.presentation.login_page
 
 import com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.LoginService
-import com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.model.LoginModel
+import com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.model.login.get.LoginModel
+import com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.model.login.send.LoginBody
 import io.ktor.client.*
 import io.ktor.client.request.*
-import kotlin.collections.get
+import io.ktor.http.*
 
 class LoginServiceImpl(
     private val httpClient: HttpClient,
@@ -12,16 +13,16 @@ class LoginServiceImpl(
 ):LoginService
 {
     companion object{
-        const val TOKEN = "Token 9c8b06d329136da358c2d00e76946b0111ce2c48"
         const val BASE_URL = "http://gi.bitfinity.ir/mobile/v1/"
-        const val RECIPE_PAGINATION_PAGE_SIZE=30
     }
-    override suspend fun login(userName: String, password: String): LoginModel
+    override suspend fun login(userName: String , password: String): LoginModel
     {
-        return httpClient.get<LoginModel>()
+        return httpClient.post<LoginModel>()
         {
             url("$baseUrl/login")
-            header("Authorization", TOKEN)
+            contentType(ContentType.Application.Json)
+            val loginBody=LoginBody(userName = userName, password = password)
+            body=loginBody
         }
     }
 
