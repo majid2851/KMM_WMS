@@ -1,15 +1,12 @@
-package com.codingwithmitch.kmm_wms.android.presentation.mobile_number.component
+package com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Button
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -17,7 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Green
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.White
 import com.codingwithmitch.kmm_wms.android.R
-import com.codingwithmitch.kmm_wms.android.presentation.mobile_number.mn_font_submit
+import com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.mn_font_submit
 
 @Preview
 @Composable

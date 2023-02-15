@@ -12,7 +12,7 @@ import com.codingwithmitch.kmm_wms.android.presentation.SheetDialog
 import com.codingwithmitch.kmm_wms.android.presentation.bank_card.BankCard
 import com.codingwithmitch.kmm_wms.android.presentation.login_page.LoginScreen
 import com.codingwithmitch.kmm_wms.android.presentation.login_page.LoginViewModel
-import com.codingwithmitch.kmm_wms.android.presentation.mobile_number.MobileNumber
+import com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.MobileNumber
 import com.codingwithmitch.kmm_wms.android.presentation.scan_dialog.ScanDialog
 import com.codingwithmitch.kmm_wms.android.presentation.transfer_task.TransferTaskScreen
 import com.codingwithmitch.kmm_wms.android.presentation.transfer_task.TransferTaskViewModel

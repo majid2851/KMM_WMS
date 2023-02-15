@@ -1,12 +1,10 @@
-package com.codingwithmitch.kmm_wms.android.presentation.mobile_number.component
+package com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.material.OutlinedTextField
 import androidx.compose.material.Text
 import androidx.compose.material.TextField
 import androidx.compose.material.TextFieldDefaults
@@ -14,22 +12,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.sp
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Black
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Gray_B0
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Green2
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.White_Pale
 import com.codingwithmitch.kmm_wms.android.R
-import com.codingwithmitch.kmm_wms.android.presentation.login_page.components.TextFieldEdi
-import com.codingwithmitch.kmm_wms.android.presentation.mobile_number.mn_font_country_code
+import com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.mn_font_country_code
 
 @Preview
 @Composable

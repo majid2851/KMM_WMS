@@ -1,4 +1,4 @@
-package com.codingwithmitch.kmm_wms.android.presentation.mobile_number.component
+package com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.component
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -14,7 +14,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Gray_B0
 import com.codingwithmitch.kmm_wms.android.R
 
 @Preview

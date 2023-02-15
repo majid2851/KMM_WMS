@@ -1,8 +1,7 @@
-package com.codingwithmitch.kmm_wms.android.presentation.mobile_number.component
+package com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
