@@ -33,4 +33,24 @@
     <dimen name="line_PhoneField_height">@dimen/_15sdp</dimen>
     <dimen name="line_PhoneField_Corner">@dimen/_3sdp</dimen>
     <dimen name="paddingLayouts7">@dimen/_7sdp</dimen>
+    <dimen name="margintTopVerifyPhone">@dimen/_50sdp</dimen>
+    <dimen name="paddingLayouts20">@dimen/_20sdp</dimen>
+    <dimen name="digit_below_line">@dimen/_40sdp</dimen>
+    <dimen name="digit_below_line_height">@dimen/_2sdp</dimen>
+    <dimen name="digit_below_line1">@dimen/_1sdp</dimen>
+    <dimen name="paddingLayouts30">@dimen/_30sdp</dimen>
+    <dimen name="digit_below_width">@dimen/_60sdp</dimen>
+    <dimen name="resendCodeLine">@dimen/_80sdp</dimen>
+    <dimen name="termsAndConditionsLine">@dimen/_55sdp</dimen>
+    <dimen name="verifyBottomLineWidth">@dimen/_100sdp</dimen>
+    <dimen name="verifyBottomLineHeigth">@dimen/_3sdp</dimen>
+    <dimen name="verifyBottomLineCorner">@dimen/_3sdp</dimen>
+    <dimen name="paddingLayouts150">@dimen/_150sdp</dimen>
+    <dimen name="marginTopEntrancePattern">@dimen/_37sdp</dimen>
+    <dimen name="fingerRecognitionRowWidth">@dimen/_220sdp</dimen>
+    <dimen name="fingerRecognitionRowHeight">@dimen/_36sdp</dimen>
+
+    <dimen name="socialRegisterSignHeight">@dimen/_38sdp</dimen>
+    <dimen name="signFieldBorder">@dimen/_50sdp</dimen>
+    <dimen name="signFieldIconWidth">@dimen/_50sdp</dimen>
 </resources>

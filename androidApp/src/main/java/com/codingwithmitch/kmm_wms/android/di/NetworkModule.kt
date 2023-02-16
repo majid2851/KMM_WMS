@@ -1,7 +1,7 @@
 package com.codingwithmitch.kmm_learning_mitch.android.di
 
-import com.codingwithmitch.kmm_wms.android.presentation.login_page.LoginServiceImpl
-import com.codingwithmitch.kmm_wms.android.presentation.login_page.LoginServiceImpl.Companion.BASE_URL
+import com.codingwithmitch.kmm_wms.android.presentation.excersize.login_page.LoginServiceImpl
+import com.codingwithmitch.kmm_wms.android.presentation.excersize.login_page.LoginServiceImpl.Companion.BASE_URL
 import com.codingwithmitch.kmm_wms.kmm_learning_mitch.datasource.network.LoginService
 import dagger.Module
 import dagger.hilt.InstallIn

@@ -9,21 +9,24 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.codingwithmitch.kmm_wms.android.presentation.SheetDialog
-import com.codingwithmitch.kmm_wms.android.presentation.bank_card.BankCard
-import com.codingwithmitch.kmm_wms.android.presentation.login_page.LoginScreen
-import com.codingwithmitch.kmm_wms.android.presentation.login_page.LoginViewModel
+import com.codingwithmitch.kmm_wms.android.presentation.excersize.bank_card.BankCard
+import com.codingwithmitch.kmm_wms.android.presentation.excersize.login_page.LoginScreen
+import com.codingwithmitch.kmm_wms.android.presentation.excersize.login_page.LoginViewModel
 import com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.MobileNumber
-import com.codingwithmitch.kmm_wms.android.presentation.scan_dialog.ScanDialog
-import com.codingwithmitch.kmm_wms.android.presentation.transfer_task.TransferTaskScreen
-import com.codingwithmitch.kmm_wms.android.presentation.transfer_task.TransferTaskViewModel
-import com.codingwithmitch.kmm_wms.android.presentation.visa_card.VisaCard
+import com.codingwithmitch.kmm_wms.android.presentation.excersize.scan_dialog.ScanDialog
+import com.codingwithmitch.kmm_wms.android.presentation.excersize.transfer_task.TransferTaskScreen
+import com.codingwithmitch.kmm_wms.android.presentation.excersize.transfer_task.TransferTaskViewModel
+import com.codingwithmitch.kmm_wms.android.presentation.excersize.visa_card.VisaCard
+import com.codingwithmitch.kmm_wms.android.presentation.wallet.entrance_pattern.EntrancePattern
+import com.codingwithmitch.kmm_wms.android.presentation.wallet.social_register.SocialRegister
+import com.codingwithmitch.kmm_wms.android.presentation.wallet.verify_number.VerifyNumber
 
 @Preview
 @Composable
 fun Navigation()
 {
     val navController= rememberNavController()
-    NavHost(navController = navController, startDestination = Screen.MobileNumber.route)
+    NavHost(navController = navController, startDestination = Screen.SocialRegister.route)
     {
         composable(route = Screen.Login.route)
         {
@@ -62,6 +65,20 @@ fun Navigation()
         {
             MobileNumber()
         }
+        composable(route = Screen.VerifyNumber.route)
+        {
+            VerifyNumber()
+        }
+
+        composable(route = Screen.EntrancePattern.route)
+        {
+            EntrancePattern()
+        }
+        composable(route = Screen.SocialRegister.route)
+        {
+            SocialRegister()
+        }
+
 
 
     }

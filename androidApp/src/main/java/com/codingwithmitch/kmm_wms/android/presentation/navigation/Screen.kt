@@ -9,6 +9,9 @@ sealed class Screen(val route:String)
     object BankCard:Screen("bankCard")
     object VisaCard:Screen("visaCard")
     object MobileNumber:Screen("phoneNumber")
+    object VerifyNumber:Screen("verifyNumber")
+    object EntrancePattern:Screen("entrancePattern")
+    object SocialRegister:Screen("socialRegister")
 
 
 

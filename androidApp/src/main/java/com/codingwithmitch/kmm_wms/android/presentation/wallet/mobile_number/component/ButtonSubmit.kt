@@ -18,7 +18,7 @@ import com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.mn_
 
 @Preview
 @Composable
-fun ButtonSubmit(title:String="majid")
+fun ButtonSubmit(title:String="")
 {
     Box(modifier=Modifier
         .padding(

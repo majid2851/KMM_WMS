@@ -22,6 +22,7 @@ import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Green2
 import com.codingwithmitch.kmm_wms.android.R
 import com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.mn_font_enterYour
 import com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.mn_font_mobileNumber
+import com.codingwithmitch.kmm_wms.android.presentation.wallet.multiStyleText
 
 @Preview
 @Composable
@@ -48,8 +49,8 @@ fun Header()
                 Black_1C,
                 stringResource(R.string.n),
                 Green2
-                , stringResource(R.string.umber)
-
+                , stringResource(R.string.umber),
+                Black_1C
                 ),
             fontSize = mn_font_mobileNumber,
             fontWeight = FontWeight(700),
@@ -63,37 +64,5 @@ fun Header()
 
 
 }
-fun multiStyleText(
-    text1: String
-    ,
-    color1: Color
-    ,
-    text2:String
-    ,
-    colorMain: Color
-    ,
-    text3:String
-    ,
-    color3: Color
-    ,
-    text4:String,
-):
-        AnnotatedString {
-    val sb=buildAnnotatedString {
-        withStyle(style = SpanStyle(color = color1)) {
-            append(text1)
-        }
-        withStyle(style = SpanStyle(color = colorMain)) {
-            append(text2)
-        }
-        append(" ")
-        withStyle(style = SpanStyle(color = color3)) {
-            append(text3)
-        }
-        withStyle(style = SpanStyle(color = colorMain)) {
-            append(text4)
-        }
-    }
-    return sb
-}
+
 

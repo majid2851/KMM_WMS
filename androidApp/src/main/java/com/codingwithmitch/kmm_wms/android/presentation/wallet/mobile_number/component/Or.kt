@@ -26,8 +26,6 @@ fun Or()
             .padding(
                 start = dimensionResource(id = R.dimen.paddingLayouts10),
                 end = dimensionResource(id = R.dimen.paddingLayouts10),
-                top = dimensionResource(id = R.dimen.paddingOrTopBottom),
-                bottom = dimensionResource(id = R.dimen.paddingOrTopBottom)
             ),
     )
     {

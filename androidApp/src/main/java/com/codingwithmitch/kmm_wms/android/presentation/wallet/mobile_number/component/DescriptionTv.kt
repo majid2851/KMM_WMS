@@ -16,9 +16,9 @@ import com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.mn_
 
 @Preview
 @Composable
-fun DescriptionTv()
+fun DescriptionTv(desc:String="")
 {
-    Text(text = stringResource(R.string.description),
+    Text(text = desc,
         fontWeight = FontWeight(400),
         color = Black_CC,
         fontSize = mn_font_desc,

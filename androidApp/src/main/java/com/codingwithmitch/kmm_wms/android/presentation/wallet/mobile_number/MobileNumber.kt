@@ -32,14 +32,24 @@ fun MobileNumber()
 
         Header()
 
-        DescriptionTv()
+        DescriptionTv(desc = stringResource(R.string.description))
 
         PhoneField()
 
         ButtonSubmit(title = stringResource(id = R.string.sendCode))
 
+        Spacer(
+            modifier = Modifier.height(
+                dimensionResource(id = R.dimen.paddingOrTopBottom),
+            )
+        )
         Or()
 
+        Spacer(
+            modifier = Modifier.height(
+                dimensionResource(id = R.dimen.paddingOrTopBottom),
+            )
+        )
         QuickConnectTitle()
 
         Brands()

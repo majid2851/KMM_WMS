@@ -12,8 +12,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import com.codingwithmitch.kmm_learning_mitch.android.presentation.theme.Gray_60
 import com.codingwithmitch.kmm_wms.android.R
-import com.codingwithmitch.kmm_wms.android.presentation.mobile_number
-.mn_font_quick_connect
+import com.codingwithmitch.kmm_wms.android.presentation.wallet.mobile_number.mn_font_quick_connect
 
 @Preview
 @Composable
